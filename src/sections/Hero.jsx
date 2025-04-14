@@ -49,7 +49,10 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Sean 👋 a Full-Stack Developer in Boston, MA
+              Hi, I'm Sean 👋
+            </p>
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+              Full-Stack Developer in Boston, MA
             </p>
 
             <Button
