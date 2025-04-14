@@ -137,7 +137,7 @@ const expCards = [
   },
   {
     review: "Spearheaded crafting and submission of an approved proposal for upgrading all team members’ laptops to 16 GB RAM, significantly boosting productivity.",
-    company: "Northeaster University",
+    company: "Northeastern University",
     logoPath: "/images/neu.png",
     title: "Enrollment Operations Lead",
     date: "February 2018 - May 2022",

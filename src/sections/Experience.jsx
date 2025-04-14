@@ -12,9 +12,9 @@ const Experience = () => {
   useGSAP(() => {
     gsap.utils.toArray(".timeline-card").forEach((card) => {
       gsap.from(card, {
-        xPercent: -100,
+        xPercent: 100,
         opacity: 0,
-        transformOrigin: "left left",
+        transformOrigin: "right right",
         duration: 1,
         ease: "power2.inOut",
         scrollTrigger: {
@@ -66,9 +66,6 @@ const Experience = () => {
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
                         <p className="my-5 text-white-50">
                           🗓️&nbsp;{card.date}
-                        </p>
-                        <p className="text-[#839CB5] italic">
-                          Responsibilities
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(
