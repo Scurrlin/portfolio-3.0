@@ -11,8 +11,8 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  { name: "Resume",
-    link: "https://drive.google.com/file/d/10RvqYyo7AnW5zBODhkdB-xpGXduj2pJF/view?usp=sharing"
+  { name: "Contact",
+    link: "#contact"
   }
 ];
 
@@ -25,33 +25,6 @@ const words = [
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
-];
-
-const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
 ];
 
 const techStackImgs = [
@@ -166,7 +139,6 @@ const socialImgs = [
 
 export {
   words,
-  logoIconsList,
   expCards,
   socialImgs,
   techStackIcons,

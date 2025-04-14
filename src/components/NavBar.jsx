@@ -42,9 +42,9 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
+        <a href="https://drive.google.com/file/d/10RvqYyo7AnW5zBODhkdB-xpGXduj2pJF/view?usp=sharing" className="contact-btn group">
           <div className="inner">
-            <span>Contact me</span>
+            <span>Resume</span>
           </div>
         </a>
       </div>
