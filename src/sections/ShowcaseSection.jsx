@@ -107,7 +107,7 @@ const AppShowcase = () => {
                   className="inline-block p-0"
                 >
                   <img
-                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
+                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat-square&color=blue"
                     alt="NPM downloads"
                     className="h-5 w-auto"
                   />
