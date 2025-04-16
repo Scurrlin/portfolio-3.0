@@ -59,10 +59,12 @@ const AppShowcase = () => {
               <img src="/images/project1.png" alt="Artofficial" />
             </div>
             <div className="text-content">
-              <h2 className="flex items-center gap-2">
-                Artofficial: AI Image Generator
-                <img src="/images/arrow.svg" alt="arrow" className="h-5 w-5" />
-              </h2>
+              <a href="https://www.artofficial.fun/" target="_blank" rel="noopener noreferrer">
+                <h2 className="flex items-center gap-2">
+                  Artofficial: AI Image Generator
+                  <img src="/images/arrow.svg" alt="arrow" className="h-5 w-5" />
+                </h2>
+              </a>
               <p className="text-white-50 md:text-xl">
                 A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger
               </p>
@@ -88,10 +90,12 @@ const AppShowcase = () => {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <h2 className="flex items-center gap-2">
-                  Zentry Replica: Modern UI/UX
-                  <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-                </h2>
+                <a href="https://zentry-replica.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <h2 className="flex items-center gap-2">
+                    Zentry Replica: Modern UI/UX
+                    <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
+                  </h2>
+                </a>
                 
                 {/* Tech icons for Project 2 */}
                 <div className="flex items-center gap-4">
@@ -109,26 +113,21 @@ const AppShowcase = () => {
                 <img src="/images/project3.png" alt="Stencil" />
               </div>
               <div className="flex flex-col gap-3">
-                <h2 className="flex items-center gap-2">
-                  Stencil: NPM Package
-                  <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-                </h2>
+                <a href="https://www.npmjs.com/package/@scurrlin/stencil" target="_blank" rel="noopener noreferrer">
+                  <h2 className="flex items-center gap-2">
+                    Stencil: NPM Package
+                    <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
+                  </h2>
+                </a>
                 
                 {/* Shield counter */}
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
-                    <a
-                      href="https://www.npmjs.com/package/@scurrlin/stencil"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block p-0"
-                    >
-                      <img
-                        src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
-                        alt="NPM downloads"
-                        className="h-5 w-auto"
-                      />
-                    </a>
+                    <img
+                      src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
+                      alt="NPM downloads"
+                      className="h-5 w-auto"
+                    />
                   </div>
                 </div>
               </div>
