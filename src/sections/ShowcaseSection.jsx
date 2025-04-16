@@ -104,12 +104,12 @@ const AppShowcase = () => {
                   href="https://www.npmjs.com/package/@scurrlin/stencil"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-left"
                 >
                   <img
-                    style={{ height: '20px' }}
+                    style={{ height: '20px', display: 'block', marginLeft: '0' }}
                     src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
                     alt="NPM Downloads"
+                    className="float-left"
                   />
                 </a>
               </div>
