@@ -65,7 +65,7 @@ const AppShowcase = () => {
               </p>
               
               {/* Tech stack and Live Site wrapper */}
-              <div className="flex justify-between items-center mt-4">
+              <div className="flex items-center gap-6 mt-4">
                 {/* Tech icons for Project 1 */}
                 <div className="tech-stack flex gap-4">
                   <img src="/images/re.svg" alt="React" className="h-8 w-8" />
@@ -73,9 +73,9 @@ const AppShowcase = () => {
                   <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
                   <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
                 </div>
-                <a href="#" className="flex items-center gap-2 text-white-50 hover:text-white transition-colors">
+                <a href="#" className="flex items-center gap-2 text-white-50 hover:text-white transition-colors md:text-lg">
                   <span>Live Site</span>
-                  <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
+                  <img src="/images/arrow.svg" alt="arrow" className="h-5 w-5" />
                 </a>
               </div>
             </div>
@@ -93,7 +93,7 @@ const AppShowcase = () => {
                 <h2>Zentry Replica: Modern UI/UX</h2>
                 
                 {/* Tech stack and Live Site wrapper */}
-                <div className="flex justify-between items-center">
+                <div className="flex items-center gap-4">
                   {/* Tech icons for Project 2 */}
                   <div className="tech-stack flex gap-3">
                     <img src="/images/re.svg" alt="React" className="h-6 w-6" />
@@ -116,7 +116,7 @@ const AppShowcase = () => {
                 <h2>Stencil: NPM Package</h2>
                 
                 {/* Tech stack and Live Site wrapper */}
-                <div className="flex justify-between items-center">
+                <div className="flex items-center gap-4">
                   {/* Shield counter */}
                   <div className="shield-counter">
                     <a
