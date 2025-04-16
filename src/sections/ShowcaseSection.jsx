@@ -99,7 +99,7 @@ const AppShowcase = () => {
               <h2>Stencil: NPM Package</h2>
               
               {/* Shield Counter for Project 3 */}
-              <div className="shield-counter mt-3">
+              <div className="shield-counter mt-3 text-left">
                 <a
                   href="https://www.npmjs.com/package/@scurrlin/stencil"
                   target="_blank"
