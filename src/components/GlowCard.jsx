@@ -41,6 +41,8 @@ const GlowCard = ({ card, index, children }) => {
           <img src="/images/star.png" alt="star" className="w-5 h-5" />
           <img src="/images/star.png" alt="star" className="w-5 h-5" />
           <img src="/images/star.png" alt="star" className="w-5 h-5" />
+          <img src="/images/star.png" alt="star" className="w-5 h-5" />
+          <img src="/images/star.png" alt="star" className="w-5 h-5" />
         </p>
       </div>
       <div className="mb-5">
