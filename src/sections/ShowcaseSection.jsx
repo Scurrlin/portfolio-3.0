@@ -49,8 +49,8 @@ const AppShowcase = () => {
       <div className="w-full">
       <div className="mb-20"> 
       <TitleHeader
-          title="How I Can Contribute & My Key Skills"
-          sub="🤝 What I Bring to the Table"
+          title="Portfolio"
+          sub="A selection of key projects"
         />
         </div>
         <div className="showcaselayout">
