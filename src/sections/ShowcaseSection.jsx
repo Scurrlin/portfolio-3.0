@@ -59,24 +59,22 @@ const AppShowcase = () => {
               <img src="/images/project1.png" alt="Artofficial" />
             </div>
             <div className="text-content">
-              <h2>Artofficial: AI Image Generator</h2>
+              <h2 className="flex items-center gap-2">
+                Artofficial: AI Image Generator
+                <img src="/images/arrow.svg" alt="arrow" className="h-5 w-5" />
+              </h2>
               <p className="text-white-50 md:text-xl">
                 A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger
               </p>
               
-              {/* Tech stack and Live Site wrapper */}
+              {/* Tech icons for Project 1 */}
               <div className="flex items-center gap-6 mt-4">
-                {/* Tech icons for Project 1 */}
                 <div className="tech-stack flex gap-4">
                   <img src="/images/re.svg" alt="React" className="h-8 w-8" />
                   <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
                   <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
                   <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
                 </div>
-                <a href="#" className="flex items-center gap-2 text-white-50 hover:text-white transition-colors md:text-lg">
-                  <span>Live Site</span>
-                  <img src="/images/arrow.svg" alt="arrow" className="h-5 w-5" />
-                </a>
               </div>
             </div>
           </div>
@@ -90,20 +88,18 @@ const AppShowcase = () => {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <h2>Zentry Replica: Modern UI/UX</h2>
+                <h2 className="flex items-center gap-2">
+                  Zentry Replica: Modern UI/UX
+                  <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
+                </h2>
                 
-                {/* Tech stack and Live Site wrapper */}
+                {/* Tech icons for Project 2 */}
                 <div className="flex items-center gap-4">
-                  {/* Tech icons for Project 2 */}
                   <div className="tech-stack flex gap-3">
                     <img src="/images/re.svg" alt="React" className="h-6 w-6" />
                     <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
                     <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
                   </div>
-                  <a href="#" className="flex items-center gap-2 text-white-50 hover:text-white transition-colors">
-                    <span>Live Site</span>
-                    <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-                  </a>
                 </div>
               </div>
             </div>
@@ -113,11 +109,13 @@ const AppShowcase = () => {
                 <img src="/images/project3.png" alt="Stencil" />
               </div>
               <div className="flex flex-col gap-3">
-                <h2>Stencil: NPM Package</h2>
+                <h2 className="flex items-center gap-2">
+                  Stencil: NPM Package
+                  <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
+                </h2>
                 
-                {/* Tech stack and Live Site wrapper */}
+                {/* Shield counter */}
                 <div className="flex items-center gap-4">
-                  {/* Shield counter */}
                   <div className="shield-counter">
                     <a
                       href="https://www.npmjs.com/package/@scurrlin/stencil"
@@ -132,10 +130,6 @@ const AppShowcase = () => {
                       />
                     </a>
                   </div>
-                  <a href="#" className="flex items-center gap-2 text-white-50 hover:text-white transition-colors">
-                    <span>Live Site</span>
-                    <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-                  </a>
                 </div>
               </div>
             </div>
