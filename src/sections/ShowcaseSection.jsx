@@ -50,7 +50,7 @@ const AppShowcase = () => {
       <div className="mb-20"> 
       <TitleHeader
           title="Portfolio Samples"
-          sub="A selection of key projects"
+          sub="A Selection of Key Projects"
         />
         </div>
         <div className="showcaselayout">
