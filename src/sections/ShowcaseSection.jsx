@@ -64,18 +64,12 @@ const AppShowcase = () => {
                 A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger
               </p>
               
-              {/* Technology icons and Live Site link for Project 1 */}
-              <div className="flex justify-between items-center mt-4">
-                <div className="tech-stack flex gap-4">
-                  <img src="/images/re.svg" alt="React" className="h-8 w-8" />
-                  <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
-                  <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
-                  <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
-                </div>
-                <a href="https://your-project1-url.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-primary hover:text-primary-light transition-colors">
-                  <span className="mr-1">Live Site</span>
-                  <img src="/images/arrow.svg" alt="Arrow" className="h-4 w-4" />
-                </a>
+              {/* Technology icons for Project 1 */}
+              <div className="tech-stack flex gap-4 mt-4">
+                <img src="/images/re.svg" alt="React" className="h-8 w-8" />
+                <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
+                <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
+                <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
               </div>
             </div>
           </div>
@@ -90,17 +84,11 @@ const AppShowcase = () => {
               </div>
               <h2>Zentry Replica: Modern UI/UX</h2>
               
-              {/* Technology icons and Live Site link for Project 2 */}
-              <div className="flex justify-between items-center mt-3">
-                <div className="tech-stack flex gap-3">
-                  <img src="/images/re.svg" alt="React" className="h-6 w-6" />
-                  <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
-                  <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
-                </div>
-                <a href="https://your-project2-url.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-primary hover:text-primary-light transition-colors">
-                  <span className="mr-1">Live Site</span>
-                  <img src="/images/arrow.svg" alt="Arrow" className="h-4 w-4" />
-                </a>
+              {/* Technology icons for Project 2 */}
+              <div className="tech-stack flex gap-3 mt-3">
+                <img src="/images/re.svg" alt="React" className="h-6 w-6" />
+                <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
+                <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
               </div>
             </div>
 
@@ -110,24 +98,18 @@ const AppShowcase = () => {
               </div>
               <h2>Stencil: NPM Package</h2>
               
-              {/* Shield Counter and Live Site link for Project 3 */}
-              <div className="flex justify-between items-center mt-3">
-                <div className="shield-counter">
-                  <a
-                    href="https://www.npmjs.com/package/@scurrlin/stencil"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      style={{ height: '20px' }}
-                      src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
-                      alt="NPM Downloads"
-                    />
-                  </a>
-                </div>
-                <a href="https://your-project3-url.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-primary hover:text-primary-light transition-colors">
-                  <span className="mr-1">Live Site</span>
-                  <img src="/images/arrow.svg" alt="Arrow" className="h-4 w-4" />
+              {/* Shield Counter for Project 3 */}
+              <div className="shield-counter mt-3">
+                <a
+                  href="https://www.npmjs.com/package/@scurrlin/stencil"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    style={{ height: '20px' }}
+                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
+                    alt="NPM Downloads"
+                  />
                 </a>
               </div>
             </div>
