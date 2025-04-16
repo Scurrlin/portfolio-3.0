@@ -56,7 +56,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Artofficial" />
+              <img src="/images/project1.jpg" alt="Artofficial" />
             </div>
             <div className="text-content">
               <a href="https://www.artofficial.fun/" target="_blank" rel="noopener noreferrer">
@@ -85,7 +85,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/project2.jpg"
                   alt="Zentry"
                 />
               </div>
@@ -110,7 +110,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="Stencil" />
+                <img src="/images/project3.jpg" alt="Stencil" />
               </div>
               <div className="flex flex-col gap-3">
                 <a href="https://www.npmjs.com/package/@scurrlin/stencil" target="_blank" rel="noopener noreferrer">
