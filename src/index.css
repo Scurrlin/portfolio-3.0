@@ -186,18 +186,30 @@ section {
     }
 
     .project-list-wrapper {
-      @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
+      @apply flex flex-col xl:w-[40%] gap-10;
+
+      .project {
+        @apply flex flex-col gap-4;
+      }
 
       .image-wrapper {
         @apply relative rounded-xl;
-      }
 
-      img {
-        @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 w-full h-full object-contain rounded-xl xl:px-5 2xl:px-12 py-0;
+        img {
+          @apply w-full h-64 md:h-52 xl:h-[37vh] object-contain rounded-xl xl:px-5 2xl:px-12 py-0;
+        }
       }
 
       h2 {
-        @apply text-lg md:text-xl lg:text-2xl font-semibold mt-5;
+        @apply text-lg md:text-xl lg:text-2xl font-semibold;
+      }
+
+      .tech-stack {
+        @apply flex gap-3;
+      }
+
+      .shield-counter {
+        @apply block;
       }
     }
   }

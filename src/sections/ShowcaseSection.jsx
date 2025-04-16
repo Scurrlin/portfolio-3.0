@@ -75,20 +75,22 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper">
-            <div className="project mb-16" ref={libraryRef}>
+            <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
                   alt="Zentry"
                 />
               </div>
-              <h2>Zentry Replica: Modern UI/UX</h2>
-              
-              {/* Technology icons for Project 2 */}
-              <div className="tech-stack flex gap-3 mt-3">
-                <img src="/images/re.svg" alt="React" className="h-6 w-6" />
-                <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
-                <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
+              <div className="flex flex-col gap-3">
+                <h2>Zentry Replica: Modern UI/UX</h2>
+                
+                {/* Technology icons for Project 2 */}
+                <div className="tech-stack flex gap-3">
+                  <img src="/images/re.svg" alt="React" className="h-6 w-6" />
+                  <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
+                  <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
+                </div>
               </div>
             </div>
 
@@ -96,22 +98,24 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="Stencil" />
               </div>
-              <h2>Stencil: NPM Package</h2>
-              
-              {/* Shield counter – same look as in your README */}
-              <div className="shield-counter mt-3 flex justify-start">
-                <a
-                  href="https://www.npmjs.com/package/@scurrlin/stencil"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block p-0"
-                >
-                  <img
-                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
-                    alt="NPM downloads"
-                    className="h-5 w-auto"
-                  />
-                </a>
+              <div className="flex flex-col gap-3">
+                <h2>Stencil: NPM Package</h2>
+                
+                {/* Shield counter – same look as in your README */}
+                <div className="shield-counter">
+                  <a
+                    href="https://www.npmjs.com/package/@scurrlin/stencil"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block p-0"
+                  >
+                    <img
+                      src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
+                      alt="NPM downloads"
+                      className="h-5 w-auto"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
