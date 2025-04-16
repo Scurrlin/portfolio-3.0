@@ -85,7 +85,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Assisted in the deployment of Lee & Low Books’ e-commerce website, the largest multicultural children’s book publisher in the United States.",
+    review: "Assisted in the deployment of Lee & Low Books' e-commerce website, the largest multicultural children's book publisher in the United States.",
     company: "GoingClear",
     logoPath: "/images/gc.png",
     title: "Associate Web Developer",
@@ -109,7 +109,7 @@ const expCards = [
     ],
   },
   {
-    review: "Spearheaded crafting and submission of an approved proposal for upgrading all team members’ laptops to 16 GB RAM, significantly boosting productivity.",
+    review: "Spearheaded crafting and submission of an approved proposal for upgrading all team members' laptops to 16 GB RAM, significantly boosting productivity.",
     company: "Northeastern University",
     logoPath: "/images/neu.png",
     title: "Enrollment Operations Lead",
@@ -126,14 +126,17 @@ const socialImgs = [
   {
     name: "GitHub",
     imgPath: "/images/git.svg",
+    url: "https://github.com/Scurrlin"
   },
   {
     name: "LinkedIn",
     imgPath: "/images/link.svg",
+    url: "https://www.linkedin.com/in/seancurrlin/"
   },
   {
     name: "Spotify",
     imgPath: "/images/spot.svg",
+    url: "https://open.spotify.com/artist/1yes1OaMmV9w58iMeggawH"
   },
 ];
 
