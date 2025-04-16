@@ -99,7 +99,7 @@ const AppShowcase = () => {
               <h2>Stencil: NPM Package</h2>
               
               {/* Shield counter – same look as in your README */}
-              <div className="shield-counter mt-3">
+              <div className="shield-counter mt-3 flex justify-start">
                 <a
                   href="https://www.npmjs.com/package/@scurrlin/stencil"
                   target="_blank"
@@ -107,7 +107,7 @@ const AppShowcase = () => {
                   className="inline-block p-0"
                 >
                   <img
-                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat-square&color=blue"
+                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
                     alt="NPM downloads"
                     className="h-5 w-auto"
                   />
