@@ -71,11 +71,6 @@ const AppShowcase = () => {
                 <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
                 <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
               </div>
-              
-              {/* Live Site Link */}
-              <a href="#" className="flex items-center gap-2 mt-3 text-primary-500 hover:text-primary-600">
-                Live Site <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-              </a>
             </div>
           </div>
 
@@ -95,11 +90,6 @@ const AppShowcase = () => {
                 <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
                 <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
               </div>
-              
-              {/* Live Site Link */}
-              <a href="#" className="flex items-center gap-2 mt-2 text-primary-500 hover:text-primary-600">
-                Live Site <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-              </a>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -108,18 +98,20 @@ const AppShowcase = () => {
               </div>
               <h2>Stencil: NPM Package</h2>
               
-              {/* Technology icons for Project 3 */}
-              <div className="tech-stack flex gap-4 mt-4">
-                <img src="/images/re.svg" alt="React" className="h-8 w-8" />
-                <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
-                <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
-                <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
+              {/* Shield Counter for Project 3 */}
+              <div className="shield-counter mt-3">
+                <a
+                  href="https://www.npmjs.com/package/@scurrlin/stencil"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    style={{ height: '20px' }}
+                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
+                    alt="NPM Downloads"
+                  />
+                </a>
               </div>
-              
-              {/* Live Site Link */}
-              <a href="#" className="flex items-center gap-2 mt-2 text-primary-500 hover:text-primary-600">
-                Live Site <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-              </a>
             </div>
           </div>
         </div>
