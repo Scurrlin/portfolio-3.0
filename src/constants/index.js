@@ -45,7 +45,7 @@ const techStackImgs = [
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Git",
+    name: "CI/CD",
     imgPath: "/images/logos/git.svg",
   },
 ];
@@ -76,7 +76,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Git",
+    name: "CI/CD",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
