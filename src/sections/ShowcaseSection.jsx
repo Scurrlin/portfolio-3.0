@@ -109,7 +109,7 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFFFFF]">
+              <div className="image-wrapper" style={{ background: 'linear-gradient(135deg, #e83f80, #f14660, #ec5d2d, #fa7454, #f9a144)' }}>
                 <img src="/images/npm.png" alt="Stencil" />
               </div>
               <div className="flex flex-col gap-3">
