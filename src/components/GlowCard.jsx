@@ -37,10 +37,18 @@ const GlowCard = ({ card, index, children }) => {
         <h2 className="text-3xl font-semibold">{card.company}</h2>
       </div>
       <div className="mb-3">
-        <p className="text-white-50 text-xl font-medium flex items-center justify-center gap-2">
-          <img src="/images/star.png" alt="star" className="w-5 h-5" />
-          Highlight
-          <img src="/images/star.png" alt="star" className="w-5 h-5" />
+        <p className="text-white-50 text-xl font-medium flex items-center justify-center gap-1">
+          <span className="flex gap-1">
+            <img src="/images/star.png" alt="star" className="w-4 h-4" />
+            <img src="/images/star.png" alt="star" className="w-4 h-4" />
+            <img src="/images/star.png" alt="star" className="w-4 h-4" />
+          </span>
+          <span className="mx-2">Highlight</span>
+          <span className="flex gap-1">
+            <img src="/images/star.png" alt="star" className="w-4 h-4" />
+            <img src="/images/star.png" alt="star" className="w-4 h-4" />
+            <img src="/images/star.png" alt="star" className="w-4 h-4" />
+          </span>
         </p>
       </div>
       <div className="mb-5">
