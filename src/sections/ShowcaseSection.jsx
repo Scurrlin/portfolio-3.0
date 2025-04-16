@@ -49,7 +49,7 @@ const AppShowcase = () => {
       <div className="w-full">
       <div className="mb-20"> 
       <TitleHeader
-          title="Portfolio"
+          title="Portfolio Samples"
           sub="A selection of key projects"
         />
         </div>
