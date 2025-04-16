@@ -64,7 +64,7 @@ const AppShowcase = () => {
                 A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger
               </p>
               
-              {/* Technology icons for Project 1 */}
+              {/* Tech icons for Project 1 */}
               <div className="tech-stack flex gap-4 mt-4">
                 <img src="/images/re.svg" alt="React" className="h-8 w-8" />
                 <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
@@ -85,7 +85,7 @@ const AppShowcase = () => {
               <div className="flex flex-col gap-3">
                 <h2>Zentry Replica: Modern UI/UX</h2>
                 
-                {/* Technology icons for Project 2 */}
+                {/* Tech icons for Project 2 */}
                 <div className="tech-stack flex gap-3">
                   <img src="/images/re.svg" alt="React" className="h-6 w-6" />
                   <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
@@ -101,7 +101,7 @@ const AppShowcase = () => {
               <div className="flex flex-col gap-3">
                 <h2>Stencil: NPM Package</h2>
                 
-                {/* Shield counter – same look as in your README */}
+                {/* Shield counter */}
                 <div className="shield-counter">
                   <a
                     href="https://www.npmjs.com/package/@scurrlin/stencil"
