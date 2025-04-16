@@ -70,10 +70,10 @@ const AppShowcase = () => {
               
               {/* Technology icons for Project 1 */}
               <div className="tech-stack flex gap-4 mt-4">
-                <img src="/public/images/re.svg" alt="React" className="h-8 w-8" />
-                <img src="/public/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
-                <img src="/public/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
-                <img src="/public/images/host.svg" alt="Hostinger" className="h-8 w-8" />
+                <img src="/images/re.svg" alt="React" className="h-8 w-8" />
+                <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
+                <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
+                <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
               </div>
             </div>
           </div>
@@ -90,9 +90,9 @@ const AppShowcase = () => {
               
               {/* Technology icons for Project 2 */}
               <div className="tech-stack flex gap-3 mt-3">
-                <img src="/public/images/re.svg" alt="React" className="h-6 w-6" />
-                <img src="/public/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
-                <img src="/public/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
+                <img src="/images/re.svg" alt="React" className="h-6 w-6" />
+                <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
+                <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
               </div>
             </div>
 
