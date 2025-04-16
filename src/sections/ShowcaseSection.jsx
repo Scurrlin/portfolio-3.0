@@ -56,16 +56,12 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="Artofficial" />
             </div>
             <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
+              <h2>Artofficial: AI Image Generator</h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger.
               </p>
               
               {/* Technology icons for Project 1 */}
@@ -83,10 +79,10 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Zentry"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Zentry Replica: Modern UI/UX</h2>
               
               {/* Technology icons for Project 2 */}
               <div className="tech-stack flex gap-3 mt-3">
@@ -98,9 +94,9 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt="Stencil" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Stencil: NPM Package</h2>
               
               {/* Shield Counter for Project 3 */}
               <div className="shield-counter mt-3">
