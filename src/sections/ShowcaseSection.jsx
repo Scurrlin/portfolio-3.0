@@ -92,13 +92,10 @@ const AppShowcase = () => {
               <div className="flex flex-col gap-3">
                 <a href="https://zentry-replica.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
-                    Zentry Replica
+                    Zentry Replica: Modern UI/UX
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
                   </h2>
                 </a>
-                <p className="text-white-50 md:text-lg">
-                  A modern UI/UX showcase featuring smooth animations and responsive design with GSAP
-                </p>
                 
                 {/* Tech icons for Project 2 */}
                 <div className="flex items-center gap-4">
@@ -118,13 +115,10 @@ const AppShowcase = () => {
               <div className="flex flex-col gap-3">
                 <a href="https://www.npmjs.com/package/@scurrlin/stencil" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
-                    Stencil
+                    Stencil: NPM Package
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
                   </h2>
                 </a>
-                <p className="text-white-50 md:text-lg">
-                  A lightweight NPM package for generating React component boilerplates with TypeScript support
-                </p>
                 
                 {/* Shield counter */}
                 <div className="flex items-center gap-4">
