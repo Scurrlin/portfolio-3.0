@@ -61,7 +61,7 @@ const AppShowcase = () => {
             <div className="text-content">
               <h2>Artofficial: AI Image Generator</h2>
               <p className="text-white-50 md:text-xl">
-                A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger.
+                A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger
               </p>
               
               {/* Technology icons for Project 1 */}
@@ -106,6 +106,7 @@ const AppShowcase = () => {
                   rel="noopener noreferrer"
                 >
                   <img
+                    style={{ height: '20px' }}
                     src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
                     alt="NPM Downloads"
                   />
