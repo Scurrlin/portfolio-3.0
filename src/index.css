@@ -186,10 +186,10 @@ section {
     }
 
     .project-list-wrapper {
-      @apply flex flex-col xl:w-[40%] gap-10;
+      @apply flex flex-col md:flex-row xl:flex-col xl:w-[40%] gap-10;
 
       .project {
-        @apply flex flex-col gap-4;
+        @apply flex flex-col gap-4 md:w-1/2 xl:w-full;
       }
 
       .image-wrapper {
