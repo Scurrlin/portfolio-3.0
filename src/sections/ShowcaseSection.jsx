@@ -85,7 +85,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/p2.png"
+                  src="/images/zentry.png"
                   alt="Zentry"
                 />
               </div>
@@ -110,7 +110,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/p3.png" alt="Stencil" />
+                <img src="/images/npm.png" alt="Stencil" />
               </div>
               <div className="flex flex-col gap-3">
                 <a href="https://www.npmjs.com/package/@scurrlin/stencil" target="_blank" rel="noopener noreferrer">
