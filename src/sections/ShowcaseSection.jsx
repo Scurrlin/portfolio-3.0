@@ -67,6 +67,14 @@ const AppShowcase = () => {
                 An app built with React Native, Expo, & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
+              
+              {/* Technology icons for Project 1 */}
+              <div className="tech-stack flex gap-4 mt-4">
+                <img src="/icons/re.svg" alt="React" className="h-8 w-8" />
+                <img src="/icons/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
+                <img src="/icons/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
+                <img src="/icons/host.svg" alt="Hostinger" className="h-8 w-8" />
+              </div>
             </div>
           </div>
 
@@ -79,6 +87,13 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>The Library Management Platform</h2>
+              
+              {/* Technology icons for Project 2 */}
+              <div className="tech-stack flex gap-3 mt-3">
+                <img src="/icons/re.svg" alt="React" className="h-6 w-6" />
+                <img src="/icons/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
+                <img src="/icons/gsap.svg" alt="GSAP" className="h-6 w-6" />
+              </div>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -86,6 +101,20 @@ const AppShowcase = () => {
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
+              
+              {/* Shield Counter for Project 3 */}
+              <div className="shield-counter mt-3">
+                <a
+                  href="https://www.npmjs.com/package/@scurrlin/stencil"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
+                    alt="NPM Downloads"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
