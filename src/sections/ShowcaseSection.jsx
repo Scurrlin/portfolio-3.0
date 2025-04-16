@@ -72,7 +72,7 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper">
+              <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
                   alt="Library Management Platform"
