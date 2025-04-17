@@ -280,12 +280,13 @@ section {
 
   form {
     label {
-      @apply block text-white-50 mb-2;
+      @apply block text-white-50 mb-2 text-base md:text-lg;
     }
 
     input,
     textarea {
-      @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-blue-100 rounded-md;
+      @apply w-full px-4 py-4 text-base md:text-lg placeholder:text-blue-50 bg-blue-100 rounded-md;
+      font-size: 16px; /* Prevents zoom on iOS */
     }
 
     a {
