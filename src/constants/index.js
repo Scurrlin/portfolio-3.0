@@ -90,10 +90,6 @@ const expCards = [
     logoPath: "/images/gc.png",
     title: "Associate Web Developer",
     date: "July 2024 - Present",
-    gradient: {
-      from: "#007cef",
-      to: "#39d25f"
-    },
     responsibilities: [
       "Engaged in ideation and planning meetings with customers to finalize minimum viable product, tech stack and project plan.",
       "Conducted quality assurance testing on new features to identity and resolve issues pre-launch.",
