@@ -243,8 +243,8 @@ section {
   }
 
   .card-border {
-    @apply border border-[#ffffff1a] bg-[#1C1C1F];
-    background: linear-gradient(180deg, rgba(45, 50, 80, 0.5) 0%, rgba(20, 20, 25, 0.5) 100%);
+    @apply border border-[#ffffff33] bg-[#1C1C1F];
+    background: linear-gradient(135deg, rgba(45, 50, 80, 0.5) 0%, rgba(20, 20, 25, 0.5) 100%);
     backdrop-filter: blur(12px);
   }
 
@@ -326,7 +326,7 @@ section {
 
   .timeline-card.card-border {
     @apply border border-[#ffffff1a];
-    background: linear-gradient(180deg, rgba(45, 45, 56, 0.7) 0%, rgba(14, 14, 16, 0.7) 100%);
+    background: linear-gradient(135deg, rgba(45, 45, 56, 0.7) 0%, rgba(14, 14, 16, 0.7) 100%);
     backdrop-filter: blur(10px);
   }
 
