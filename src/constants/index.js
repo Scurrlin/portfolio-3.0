@@ -85,10 +85,10 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Assoicate Web Developer",
+    review: "Assisted in the deployment of Lee & Low Books' e-commerce website, the largest multicultural children's book publisher in the United States.",
     company: "GoingClear",
     logoPath: "/images/gc.png",
-    title: "Assisted in the deployment of Lee & Low Books' e-commerce website, the largest multicultural children's book publisher in the United States.",
+    title: "Associate Web Developer",
     date: "July 2024 - Present",
     responsibilities: [
       "Engaged in ideation and planning meetings with customers to finalize minimum viable product, tech stack and project plan.",
