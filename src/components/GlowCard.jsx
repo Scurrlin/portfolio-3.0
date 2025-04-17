@@ -34,7 +34,7 @@ const GlowCard = ({ card, index, children }) => {
     >
       <div className="glow"></div>
       <div className="mb-5 text-center">
-        <h2 className="text-3xl font-semibold">{card.company}</h2>
+        <h2 className="text-3xl font-semibold bg-gradient-to-tr from-[#007cef] via-[#1c6fa7] to-[#39d25f] inline-block text-transparent bg-clip-text">{card.company}</h2>
       </div>
       <div className="mb-3">
         <p className="text-white-50 text-xl font-medium flex items-center justify-center gap-2">
