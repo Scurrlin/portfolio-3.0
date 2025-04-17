@@ -326,8 +326,8 @@ section {
 
   .timeline-card.card-border {
     @apply border border-[#ffffff66];
-    background: linear-gradient(135deg, rgba(45, 45, 56, 0.7) 0%, rgba(14, 14, 16, 0.7) 100%);
-    backdrop-filter: blur(10px);
+    background: linear-gradient(135deg, rgba(65, 65, 76, 0.7) 0%, rgba(34, 34, 36, 0.7) 100%);
+    backdrop-filter: blur(12px);
   }
 
   .timeline-card .glow {
