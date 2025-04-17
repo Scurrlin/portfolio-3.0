@@ -243,7 +243,9 @@ section {
   }
 
   .card-border {
-    @apply border-2 border-black-50 bg-black-100;
+    @apply border border-[#ffffff1a] bg-[#1C1C1F];
+    background: linear-gradient(180deg, rgba(45, 50, 80, 0.5) 0%, rgba(20, 20, 25, 0.5) 100%);
+    backdrop-filter: blur(12px);
   }
 
   .timeline-logo {
