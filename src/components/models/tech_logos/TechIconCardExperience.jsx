@@ -33,6 +33,42 @@ const TechIconCardExperience = ({ model }) => {
         }
       });
     }
+
+    // Apply gradient material to NodeJS model
+    if (model.name === "NodeJS") {
+      scene.scene.traverse((child) => {
+        if (child.isMesh) {
+          // Create a custom gradient shader material
+          const gradientMaterial = new THREE.ShaderMaterial({
+            uniforms: {
+              color1: { value: new THREE.Color("#4B9FE1") },
+              color2: { value: new THREE.Color("#B784FF") },
+            },
+            vertexShader: `
+              varying vec3 vPosition;
+              
+              void main() {
+                vPosition = position;
+                gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+              }
+            `,
+            fragmentShader: `
+              uniform vec3 color1;
+              uniform vec3 color2;
+              
+              varying vec3 vPosition;
+              
+              void main() {
+                float gradientFactor = (vPosition.y + 1.0) * 0.5;
+                vec3 finalColor = mix(color2, color1, gradientFactor);
+                gl_FragColor = vec4(finalColor, 1.0);
+              }
+            `,
+          });
+          child.material = gradientMaterial;
+        }
+      });
+    }
   }, [scene, model.name]);
 
   return (
