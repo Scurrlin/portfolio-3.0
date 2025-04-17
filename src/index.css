@@ -324,7 +324,7 @@ section {
 
   .timeline-card.card-border {
     @apply border border-[#ffffff66];
-    background: linear-gradient(135deg, rgba(55, 55, 66, 0.7) 0%, rgba(24, 24, 26, 0.7) 100%);
+    background: linear-gradient(180deg, rgba(55, 55, 66, 0.7) 0%, rgba(24, 24, 26, 0.7) 100%);
     backdrop-filter: blur(12px);
   }
 
