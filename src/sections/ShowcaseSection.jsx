@@ -85,7 +85,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#265eff]">
                 <img
-                  src="/images/zentry2.png"
+                  src="/images/zentry.png"
                   alt="Zentry"
                 />
               </div>
