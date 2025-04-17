@@ -400,7 +400,7 @@ section {
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 12px;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   background: var(--gradient);
   background-attachment: fixed;
   mask: linear-gradient(#0000, #0000),
