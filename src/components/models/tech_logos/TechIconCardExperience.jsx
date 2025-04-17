@@ -16,7 +16,24 @@ const TechIconCardExperience = ({ model }) => {
         }
       });
     }
-  }, [scene]);
+
+    // Apply bright material to ThreeJS model
+    if (model.name === "ThreeJS") {
+      scene.scene.traverse((child) => {
+        if (child.isMesh) {
+          // Create a bright, slightly metallic material
+          const material = new THREE.MeshStandardMaterial({
+            color: 0xFFFFFF,  // Pure white
+            metalness: 0.2,   // Slight metallic look
+            roughness: 0.1,   // Very smooth surface
+            emissive: 0xFFFFFF, // Add some self-illumination
+            emissiveIntensity: 0.2 // Control the glow intensity
+          });
+          child.material = material;
+        }
+      });
+    }
+  }, [scene, model.name]);
 
   return (
     <Canvas>
