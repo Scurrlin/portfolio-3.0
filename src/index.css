@@ -243,7 +243,7 @@ section {
   }
 
   .card-border {
-    @apply border border-black-50 bg-black-100;
+    @apply border-2 border-black-50 bg-black-100;
   }
 
   .timeline-logo {
@@ -400,7 +400,7 @@ section {
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 12px;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   background: var(--gradient);
   background-attachment: fixed;
   mask: linear-gradient(#0000, #0000),
