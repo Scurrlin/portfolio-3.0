@@ -34,12 +34,7 @@ const GlowCard = ({ card, index, children }) => {
     >
       <div className="glow"></div>
       <div className="mb-5 text-center">
-        <h2 
-          className="text-3xl font-semibold inline-block text-transparent bg-clip-text"
-          style={{ background: "linear-gradient(90deg,rgba(0, 124, 239, 1) 0%, rgba(57, 210, 95, 1) 50%)" }}
-        >
-          {card.company}
-        </h2>
+        <h2 className="text-3xl font-semibold inline-block text-transparent bg-clip-text bg-gradient-to-r from-[#007cef] to-[#39d25f]">{card.company}</h2>
       </div>
       <div className="mb-3">
         <p className="text-white-50 text-xl font-medium flex items-center justify-center gap-2">
