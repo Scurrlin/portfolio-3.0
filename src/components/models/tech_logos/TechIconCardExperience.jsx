@@ -38,11 +38,11 @@ const TechIconCardExperience = ({ model }) => {
     if (model.name === "NodeJS") {
       scene.scene.traverse((child) => {
         if (child.isMesh) {
-          // Create a custom gradient shader material
+          // Create a custom gradient shader material with brighter colors
           const gradientMaterial = new THREE.ShaderMaterial({
             uniforms: {
-              color1: { value: new THREE.Color("#4B9FE1") },
-              color2: { value: new THREE.Color("#B784FF") },
+              color1: { value: new THREE.Color("#4285f4") },  // Brighter blue
+              color2: { value: new THREE.Color("#d242f4") },  // Brighter purple
             },
             vertexShader: `
               varying vec3 vPosition;
@@ -59,9 +59,9 @@ const TechIconCardExperience = ({ model }) => {
               varying vec3 vPosition;
               
               void main() {
-                float gradientFactor = (vPosition.y + 1.0) * 0.5;
+                float gradientFactor = pow((vPosition.y + 1.0) * 0.5, 1.2);
                 vec3 finalColor = mix(color2, color1, gradientFactor);
-                gl_FragColor = vec4(finalColor, 1.0);
+                gl_FragColor = vec4(finalColor * 1.4, 1.0);  // Increased overall brightness even more
               }
             `,
           });
