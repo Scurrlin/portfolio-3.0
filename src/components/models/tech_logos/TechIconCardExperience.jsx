@@ -18,7 +18,7 @@ const TechIconCardExperience = ({ model }) => {
     }
 
     // Apply bright material to ThreeJS model
-    if (model.name === "3JS") {
+    if (model.name === "ThreeJS") {
       scene.scene.traverse((child) => {
         if (child.isMesh) {
           // Create a bright, slightly metallic material
@@ -35,7 +35,7 @@ const TechIconCardExperience = ({ model }) => {
     }
 
     // Apply gradient material to NodeJS model
-    if (model.name === "Node") {
+    if (model.name === "NodeJS") {
       scene.scene.traverse((child) => {
         if (child.isMesh) {
           // Create a custom gradient shader material with brighter colors

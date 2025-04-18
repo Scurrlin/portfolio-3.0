@@ -35,19 +35,19 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "React",
+    name: "ReactJS",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Node",
+    name: "NodeJS",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "3JS",
+    name: "ThreeJS",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
