@@ -27,29 +27,6 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
-const techStackImgs = [
-  {
-    name: "Python",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "ReactJS",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "NodeJS",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "ThreeJS",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "CI/CD",
-    imgPath: "/images/logos/git.svg",
-  },
-];
-
 const techStackIcons = [
   {
     name: "Python",
@@ -58,19 +35,19 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "ReactJS",
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "NodeJS",
+    name: "Node",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "ThreeJS",
+    name: "3JS",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
@@ -85,7 +62,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Assisted in the deployment of Lee & Low Books' e-commerce website, the largest multicultural children's book publisher in the United States.",
+    topContribution: "Assisted in the deployment of Lee & Low Books' e-commerce website, the largest multicultural children's book publisher in the United States.",
     company: "GoingClear",
     logoPath: "/images/gc.png",
     title: "Associate Web Developer",
@@ -97,7 +74,7 @@ const expCards = [
     ],
   },
   {
-    review: "Partnered with a senior developer to construct an enhanced Web API for specific CRMLS data points.",
+    topContribution: "Partnered with a senior developer to construct an enhanced Web API for specific CRMLS data points.",
     company: "Propcard",
     logoPath: "/images/propcard.png",
     title: "Customer Support Engineer",
@@ -109,7 +86,7 @@ const expCards = [
     ],
   },
   {
-    review: "Spearheaded the crafting and submission of an approved proposal for upgrading all team members' laptops to 16 GB RAM, significantly boosting productivity.",
+    topContribution: "Spearheaded the crafting and submission of an approved proposal for upgrading all team members' laptops to 16 GB RAM, significantly boosting productivity.",
     company: "Northeastern University",
     logoPath: "/images/neu.png",
     title: "Enrollment Operations Lead",
@@ -145,6 +122,5 @@ export {
   expCards,
   socialImgs,
   techStackIcons,
-  techStackImgs,
   navLinks,
 };
