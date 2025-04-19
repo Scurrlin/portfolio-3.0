@@ -37,7 +37,7 @@ const Hero = () => {
                           <img
                             src={word.imgPath}
                             alt="person"
-                            className="w-[65%] h-[65%] object-cover"
+                            className="w-[63%] h-[63%] object-cover"
                           />
                         </div>
                         <span>{word.text}</span>
