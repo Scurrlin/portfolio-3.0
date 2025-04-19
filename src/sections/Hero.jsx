@@ -33,11 +33,13 @@ const Hero = () => {
                         key={index}
                         className="flex items-center md:gap-3 gap-1 pb-2"
                       >
-                        <img
-                          src={word.imgPath}
-                          alt="person"
-                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
-                        />
+                        <div className="xl:w-12 xl:h-12 md:w-10 md:h-10 w-7 h-7 rounded-full bg-white-50 flex items-center justify-center">
+                          <img
+                            src={word.imgPath}
+                            alt="person"
+                            className="w-[60%] h-[60%] object-contain"
+                          />
+                        </div>
                         <span>{word.text}</span>
                       </span>
                     ))}
