@@ -325,6 +325,16 @@ section {
   .timeline-card.card-border {
     @apply border border-[#ffffff66] bg-black-100;
   }
+
+  .interaction-text::before {
+    content: "Click to Interact";
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    .interaction-text::before {
+      content: "Swipe to Interact";
+    }
+  }
 }
 
 /* Hero text slider starts */
