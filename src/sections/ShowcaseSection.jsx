@@ -87,12 +87,13 @@ const AppShowcase = () => {
                 <img
                   src="/images/lanner.svg"
                   alt="Lanner"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="flex flex-col gap-3">
                 <a href="https://ivory-quail-399782.hostingersite.com/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
-                    Lanner Noodles: Modern UI/UX
+                    Lanner Noodles: Custom Design
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
                   </h2>
                 </a>
@@ -103,7 +104,7 @@ const AppShowcase = () => {
                     <img src="/images/re.svg" alt="React" className="h-6 w-6" />
                     <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
                     <img src="/images/ts.svg" alt="TypeScript" className="h-6 w-6" />
-                    <img scr="/images/host.svg" alt="Hostinger" className="h-6 w-6" />
+                    <img src="/images/host.svg" alt="Hostinger" className="h-6 w-6" />
                   </div>
                 </div>
               </div>
