@@ -83,16 +83,16 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#265eff]">
+              <div className="image-wrapper bg-[#ffffff]">
                 <img
-                  src="/images/zentry.png"
-                  alt="Zentry"
+                  src="/images/lanner.png"
+                  alt="Lanner"
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <a href="https://zentry-replica.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://ivory-quail-399782.hostingersite.com/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
-                    Zentry Replica: Modern UI/UX
+                    Lanner Noodles: Modern UI/UX
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
                   </h2>
                 </a>
@@ -102,7 +102,8 @@ const AppShowcase = () => {
                   <div className="tech-stack flex gap-3">
                     <img src="/images/re.svg" alt="React" className="h-6 w-6" />
                     <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
-                    <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
+                    <img src="/images/ts.svg" alt="TypeScript" className="h-6 w-6" />
+                    <img scr="/images/host.svg" alt="Hostinger" className="h-6 w-6" />
                   </div>
                 </div>
               </div>
