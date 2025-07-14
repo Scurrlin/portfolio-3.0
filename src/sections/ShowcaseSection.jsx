@@ -87,11 +87,10 @@ const AppShowcase = () => {
                 <img
                   src="/images/lanner.svg"
                   alt="Lanner"
-                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <a href="https://ivory-quail-399782.hostingersite.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://lannernoodles.com/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
                     Lanner Noodles: Custom Design
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
