@@ -62,15 +62,28 @@ const techStackIcons = [
 
 const expCards = [
   {
-    topContribution: "Supported the deployment of Lee & Low Books’ e-commerce website, the largest multicultural children’s book publisher in the United States.",
+    topContribution: (
+      <>
+        Supported the deployment of Lee & Low Books'{" "}
+        <a 
+          href="https://leeandlow.com/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style={{ fontWeight: 'bold', textDecoration: 'underline', cursor: 'pointer' }}
+        >
+          e-commerce website
+        </a>
+        , the largest multicultural children's book publisher in the United States.
+      </>
+    ),
     company: "GoingClear",
     logoPath: "/images/gc.png",
     title: "Associate Web Developer",
     date: "July 2024 - Present",
     responsibilities: [
       "Engaged with customers in ideation and planning meetings to finalize minimum viable product, tech stack, and project plan.",
-      "Conducted QA testing on new features to identify and resolve issues before launch.",
       "Interviewed previous clients to record live testimonials, strengthening brand trust and boosting social media engagement.",
+      "Conducted QA testing on new features to identify and resolve issues before launch.",
     ],
   },
   {

@@ -43,7 +43,7 @@ const NavBar = () => {
         </nav>
 
         <a 
-          href="https://drive.google.com/file/d/1p1lhMqom0l6OPEaehPRYDtxU0sYNQ9XJ/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1LQlziQnVyZPlviWLgQT9IfJ5niInALv_/view?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="contact-btn group"
