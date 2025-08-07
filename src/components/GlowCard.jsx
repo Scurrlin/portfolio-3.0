@@ -37,10 +37,7 @@ const GlowCard = ({ card, index, children }) => {
         <h2 className="text-3xl font-semibold">{card.company}</h2>
       </div>
       <div className="mb-5">
-        <p 
-          className="text-white-50 text-lg" 
-          dangerouslySetInnerHTML={{ __html: card.topContribution }}
-        />
+        <p className="text-white-50 text-lg">{card.topContribution}</p>
       </div>
       {children}
     </div>

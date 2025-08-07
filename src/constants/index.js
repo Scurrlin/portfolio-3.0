@@ -62,7 +62,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    topContribution: "Supported the deployment of Lee & Low Books' <a href='https://leeandlow.com/' target='_blank' rel='noopener noreferrer' style='font-weight: bold; text-decoration: underline;'>e-commerce website</a>, the largest multicultural children's book publisher in the United States.",
+    topContribution: "Supported the deployment of Lee & Low Books' e-commerce website, the largest multicultural children's book publisher in the United States.",
     company: "GoingClear",
     logoPath: "/images/gc.png",
     title: "Associate Web Developer",
