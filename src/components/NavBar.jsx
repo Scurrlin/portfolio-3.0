@@ -71,7 +71,6 @@ const NavBar = () => {
                 })}
                 style={{
                   "--animation-order": bar,
-                  animationDelay: `${bar * 0.1}s`,
                 }}
               />
             ))}
