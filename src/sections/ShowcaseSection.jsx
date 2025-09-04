@@ -100,10 +100,10 @@ const AppShowcase = () => {
                 {/* Tech icons for Project 2 */}
                 <div className="flex items-center gap-4">
                   <div className="tech-stack flex gap-3">
-                    <img src="/images/re.svg" alt="React" className="h-6 w-6" />
+                    <img src="/images/next.svg" alt="NextJS" className="h-6 w-6" />
                     <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
+                    <img src="/images/fm.svg" alt="Framer Motion" className="h-6 w-6" />
                     <img src="/images/ts.svg" alt="TypeScript" className="h-6 w-6" />
-                    <img src="/images/host.svg" alt="Hostinger" className="h-6 w-6" />
                   </div>
                 </div>
               </div>
