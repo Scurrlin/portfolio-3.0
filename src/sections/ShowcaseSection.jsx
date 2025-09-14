@@ -110,13 +110,13 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper" style={{ background: 'linear-gradient(135deg, #e83f80, #f14660, #ec5d2d, #fa7454, #f9a144)' }}>
-                <img src="/images/npm.png" alt="Stencil" />
+              <div className="image-wrapper" style={{ background: 'linear-gradient(135deg, #1195f4, #2d7fea, #3f6cdd, #7557c6, #a469a8)' }}>
+                <img src="/images/tableau.png" alt="Cost of Virtuosity" />
               </div>
               <div className="flex flex-col gap-3">
-                <a href="https://www.npmjs.com/package/@scurrlin/stencil" target="_blank" rel="noopener noreferrer">
+                <a href="https://scurrlin.github.io/cost_of_virtuosity/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
-                    Stencil: NPM Package
+                    Cost of Virtuosity: Data Analysis
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
                   </h2>
                 </a>
@@ -125,8 +125,8 @@ const AppShowcase = () => {
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
                     <img
-                      src="https://img.shields.io/npm/dt/%40scurrlin%2Fstencil?style=flat&color=blue"
-                      alt="NPM downloads"
+                      src="https://img.shields.io/badge/total_views-3.6k-blue"
+                      alt="Tableau Views"
                       className="h-5 w-auto"
                     />
                   </div>
