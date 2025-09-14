@@ -11,3 +11,6 @@ The latest version of [my developer portfolio](https://seancurrlin.com/) built w
 * GSAP
 * Drei
 * Vite
+
+## Credits
+["Tableau Software"](https://icons8.com/icon/9Kvi1p1F0tUo/tableau-software) icon by ["Icons8"](https://icons8.com)

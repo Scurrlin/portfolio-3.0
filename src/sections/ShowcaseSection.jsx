@@ -8,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const rydeRef = useRef(null);
-  const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
+  const artRef = useRef(null);
+  const lannerRef = useRef(null);
+  const costRef = useRef(null);
 
   useGSAP(() => {
     // Animation for the main section
@@ -21,7 +21,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [artRef.current, lannerRef.current, costRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -54,7 +54,7 @@ const AppShowcase = () => {
         />
         </div>
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={artRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/p1.png" alt="Artofficial" />
             </div>
@@ -82,7 +82,7 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={lannerRef}>
               <div className="image-wrapper bg-[#ffffff]">
                 <img
                   src="/images/lanner.svg"
@@ -109,14 +109,14 @@ const AppShowcase = () => {
               </div>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper" style={{ background: 'linear-gradient(135deg, #1195f4, #2d7fea, #3f6cdd, #7557c6, #a469a8)' }}>
-                <img src="/images/tableau.png" alt="Cost of Virtuosity" />
+            <div className="project" ref={costRef}>
+              <div className="image-wrapper" style={{ background: 'linear-gradient(135deg, #089ffa, #287de7, #4761d8, #8463b7, #d8718e)' }}>
+                <img src="/images/tableau.png" alt="The Cost of Virtuosity" />
               </div>
               <div className="flex flex-col gap-3">
                 <a href="https://scurrlin.github.io/cost_of_virtuosity/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
-                    Cost of Virtuosity: Data Analysis
+                    The Cost of Virtuosity: Data Analysis
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
                   </h2>
                 </a>
@@ -125,7 +125,7 @@ const AppShowcase = () => {
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
                     <img
-                      src="https://img.shields.io/badge/total_views-3.6k-blue"
+                      src="https://img.shields.io/badge/total_views-6.8k-blue"
                       alt="Tableau Views"
                       className="h-5 w-auto"
                     />
