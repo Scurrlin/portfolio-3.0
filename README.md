@@ -13,4 +13,4 @@ The latest version of [my developer portfolio](https://seancurrlin.com/) built w
 * Vite
 
 ## Credits
-["Tableau Software"](https://icons8.com/icon/9Kvi1p1F0tUo/tableau-software) icon by ["Icons8"](https://icons8.com)
+Official ["Tableau Software"](https://icons8.com/icon/9Kvi1p1F0tUo/tableau-software) logo provided by ["Icons8"](https://icons8.com)
