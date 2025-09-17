@@ -110,7 +110,7 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={costRef}>
-              <div className="image-wrapper" style={{background: 'linear-gradient(135deg, #4aa3f0, #3f82d0, #4a559f, #59407f, #c94274)'}}>
+              <div className="image-wrapper" style={{background: 'linear-gradient(135deg, #4aa3f0, #3f82d0, #4a559f, #59407f, #a15a87)'}}>
                 <img src="/images/tableau.png" alt="The Cost of Virtuosity" />
               </div>
               <div className="flex flex-col gap-3">
