@@ -110,7 +110,7 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={costRef}>
-              <div className="image-wrapper" style={{background: 'linear-gradient(135deg, #4aa3f0, #3f82d0, #4a559f, #59407f, #a15a87)'}}>
+              <div className="image-wrapper" style={{background: 'linear-gradient(135deg, #4aa3f0, #3f82d0, #2563eb, #1e40af)'}}>
                 <img src="/images/tableau.png" alt="The Cost of Virtuosity" />
               </div>
               <div className="flex flex-col gap-3">
@@ -125,7 +125,7 @@ const AppShowcase = () => {
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
                     <img
-                      src="https://img.shields.io/badge/total_views-7.1k-blue"
+                      src="https://img.shields.io/badge/total_views-7.3k-blue"
                       alt="Tableau Views"
                       className="h-5 w-auto"
                     />
