@@ -57,7 +57,7 @@ const AppShowcase = () => {
         />
         </div>
         <div className="showcaselayout">
-          <div ref={signalRef} className="first-project-wrapper">
+          <div ref={signalRef} className="first-project-wrapper border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-lg">
             <div className="image-wrapper">
               <img src="/images/signalist.png" alt="Signalist" />
             </div>
@@ -137,11 +137,11 @@ const AppShowcase = () => {
               </div>
             </div>
           </div>
-        </div>
-        
-        {/* Second group of projects */}
-        <div className="showcaselayout">
-          <div ref={artRef} className="first-project-wrapper">
+          </div>
+          
+          {/* Second group of projects */}
+          <div className="showcaselayout mt-20">
+          <div ref={artRef} className="first-project-wrapper border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-lg">
             <div className="image-wrapper">
               <img src="/images/p1.png" alt="Artofficial" />
             </div>
