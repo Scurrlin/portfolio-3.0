@@ -8,10 +8,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const artRef = useRef(null);
+  const signalRef = useRef(null);
   const lannerRef = useRef(null);
   const costRef = useRef(null);
-  const signalRef = useRef(null);
+  const artRef = useRef(null);
   const appleRef = useRef(null);
   const stencilRef = useRef(null);
 
