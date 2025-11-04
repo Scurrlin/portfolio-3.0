@@ -100,7 +100,7 @@ const AppShowcase = () => {
                   </h2>
                 </a>
                 
-                {/* Tech icons for Project 2 */}
+                {/* Tech icons for Lanner Noodles */}
                 <div className="flex items-center gap-4">
                   <div className="tech-stack flex gap-3">
                     <img src="/images/next.svg" alt="NextJS" className="h-6 w-6" />
@@ -124,7 +124,7 @@ const AppShowcase = () => {
                   </h2>
                 </a>
                 
-                {/* Shield counter */}
+                {/* Shield counter for CoV */}
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
                     <img
@@ -137,8 +137,10 @@ const AppShowcase = () => {
               </div>
             </div>
           </div>
-
-          {/* Second group of projects */}
+        </div>
+        
+        {/* Second group of projects */}
+        <div className="showcaselayout">
           <div ref={artRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/p1.png" alt="Artofficial" />
@@ -182,7 +184,7 @@ const AppShowcase = () => {
                   </h2>
                 </a>
                 
-                {/* Tech icons for Project 5 */}
+                {/* Tech icons for iPhone 15 */}
                 <div className="flex items-center gap-4">
                   <div className="tech-stack flex gap-3">
                     <img src="/images/re.svg" alt="React" className="h-6 w-6" />
@@ -206,7 +208,7 @@ const AppShowcase = () => {
                   </h2>
                 </a>
                 
-                {/* Tech icons or badge for Project 6 */}
+                {/* Shield counter for Stencil */}
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
                     <img
