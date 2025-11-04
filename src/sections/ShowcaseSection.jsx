@@ -24,7 +24,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [artRef.current, lannerRef.current, costRef.current, stencilRef.current, appleRef.current, signalRef.current];
+    const cards = [signalRef.current, lannerRef.current, costRef.current, stencilRef.current, appleRef.current, artRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -57,27 +57,27 @@ const AppShowcase = () => {
         />
         </div>
         <div className="showcaselayout">
-          <div ref={artRef} className="first-project-wrapper">
+          <div ref={signalRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/p1.png" alt="Artofficial" />
+              <img src="/images/signalist.png" alt="Signalist" />
             </div>
             <div className="text-content">
-              <a href="https://www.artofficial.fun/" target="_blank" rel="noopener noreferrer">
+              <a href="https://stocks-app-s2l1.onrender.com" target="_blank" rel="noopener noreferrer">
                 <h2 className="flex items-center gap-2">
-                  Artofficial
+                  Signalist
                   <img src="/images/arrow.svg" alt="arrow" className="h-5 w-5" />
                 </h2>
               </a>
               <p className="text-white-50 md:text-xl">
-                A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger
+                A full MERN stack stock market analysis app that lets users create custom watchlists 
               </p>
               
-              {/* Tech icons for Project 1 */}
+              {/* Tech icons for Signalist */}
               <div className="flex items-center gap-6 mt-4">
                 <div className="tech-stack flex gap-4">
-                  <img src="/images/re.svg" alt="React" className="h-8 w-8" />
+                  <img src="/images/next.svg" alt="NextJS" className="h-8 w-8" />
                   <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
-                  <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
+                  <img src="/images/ts.svg" alt="TypeScript" className="h-8 w-8" />
                   <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
                 </div>
               </div>
@@ -139,27 +139,27 @@ const AppShowcase = () => {
           </div>
 
           {/* Second group of projects */}
-          <div ref={signalRef} className="first-project-wrapper">
+          <div ref={artRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/signalist.png" alt="Signalist" />
+              <img src="/images/p1.png" alt="Artofficial" />
             </div>
             <div className="text-content">
-              <a href="https://stocks-app-s2l1.onrender.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.artofficial.fun/" target="_blank" rel="noopener noreferrer">
                 <h2 className="flex items-center gap-2">
-                  Signalist
+                  Artofficial
                   <img src="/images/arrow.svg" alt="arrow" className="h-5 w-5" />
                 </h2>
               </a>
               <p className="text-white-50 md:text-xl">
-                A full MERN stack stock market analysis app that lets users create custom watchlists 
+                A full MERN stack AI image generator powered by Cloudinary, DALL-E-3, and Hostinger
               </p>
               
-              {/* Tech icons for Project 4 */}
+              {/* Tech icons for Artofficial */}
               <div className="flex items-center gap-6 mt-4">
                 <div className="tech-stack flex gap-4">
-                  <img src="/images/next.svg" alt="NextJS" className="h-8 w-8" />
+                  <img src="/images/re.svg" alt="React" className="h-8 w-8" />
                   <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
-                  <img src="/images/ts.svg" alt="TypeScript" className="h-8 w-8" />
+                  <img src="/images/cloud.svg" alt="Cloudinary" className="h-8 w-8" />
                   <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
                 </div>
               </div>
