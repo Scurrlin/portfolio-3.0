@@ -59,7 +59,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={signalRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/signalist.png" alt="Signalist" className="border border-white" />
+              <img src="/images/signalist.png" alt="Signalist" className="border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-lg" />
             </div>
             <div className="text-content">
               <a href="https://stocks-app-s2l1.onrender.com" target="_blank" rel="noopener noreferrer">
