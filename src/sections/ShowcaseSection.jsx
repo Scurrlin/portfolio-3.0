@@ -26,7 +26,9 @@ const AppShowcase = () => {
     // Animations for each app showcase
     const cards = [signalRef.current, lannerRef.current, costRef.current, stencilRef.current, appleRef.current, artRef.current];
 
-    cards.forEach((card, index) => {
+    // First group animations
+    const firstGroupCards = [signalRef.current, lannerRef.current, costRef.current];
+    firstGroupCards.forEach((card, index) => {
       gsap.fromTo(
         card,
         {
@@ -41,6 +43,28 @@ const AppShowcase = () => {
           scrollTrigger: {
             trigger: card,
             start: "top bottom-=100",
+          },
+        }
+      );
+    });
+
+    // Second group animations (trigger earlier)
+    const secondGroupCards = [artRef.current, appleRef.current, stencilRef.current];
+    secondGroupCards.forEach((card, index) => {
+      gsap.fromTo(
+        card,
+        {
+          y: 50,
+          opacity: 0,
+        },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 1,
+          delay: 0.3 * (index + 1),
+          scrollTrigger: {
+            trigger: card,
+            start: "top bottom-=200",
           },
         }
       );
@@ -140,7 +164,7 @@ const AppShowcase = () => {
           </div>
           
           {/* Second group of projects */}
-          <div className="showcaselayout mt-20">
+          <div className="showcaselayout" style={{marginTop: '60px'}}>
           <div ref={artRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/p1.png" alt="Artofficial" />
