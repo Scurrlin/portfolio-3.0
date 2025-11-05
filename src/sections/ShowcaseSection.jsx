@@ -201,7 +201,7 @@ const AppShowcase = () => {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <a href="https://iphone-15-z944.onrender.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://iphone.seancurrlin.com/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
                     iPhone 15 Replica: Modern UI/UX
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
