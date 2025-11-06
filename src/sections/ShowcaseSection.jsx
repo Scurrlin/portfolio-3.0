@@ -102,7 +102,7 @@ const AppShowcase = () => {
                   <img src="/images/next.svg" alt="NextJS" className="h-8 w-8" />
                   <img src="/images/tail.svg" alt="TailwindCSS" className="h-8 w-8" />
                   <img src="/images/ts.svg" alt="TypeScript" className="h-8 w-8" />
-                  <img src="/images/host.svg" alt="Hostinger" className="h-8 w-8" />
+                  <img src="/images/dock.svg" alt="Docker" className="h-8 w-8" />
                 </div>
               </div>
             </div>
@@ -201,7 +201,7 @@ const AppShowcase = () => {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <a href="https://iphone.seancurrlin.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://iphonereplica.seancurrlin.com/" target="_blank" rel="noopener noreferrer">
                   <h2 className="flex items-center gap-2">
                     iPhone 15 Replica: Modern UI/UX
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
