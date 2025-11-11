@@ -236,7 +236,7 @@ const AppShowcase = () => {
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
                     <img
-                      src="https://img.shields.io/badge/downloads-26k-blue"
+                      src="https://img.shields.io/badge/downloads-27k-blue"
                       alt="downloads"
                       className="h-5 w-auto"
                     />
