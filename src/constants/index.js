@@ -35,6 +35,19 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
+    name: "SQL",
+    modelPath: "/models/cloud_storage_icon.glb",
+    scale: 0.6,
+    rotation: [0, 0, 0],
+    position: [0, -1, 0],
+  },
+  {
+    name: "CI/CD",
+    modelPath: "/models/git-svg-transformed.glb",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
+  {
     name: "ReactJS",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
@@ -51,20 +64,7 @@ const techStackIcons = [
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
-  },
-  {
-    name: "SQL",
-    modelPath: "/models/cloud_storage_icon.glb",
-    scale: 0.6,
-    rotation: [0, 0, 0],
-    position: [0, -1, 0],
-  },
-  {
-    name: "CI/CD",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
+  }
 ];
 
 const expCards = [
