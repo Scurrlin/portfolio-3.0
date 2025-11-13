@@ -53,6 +53,13 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
+    name: "SQL",
+    modelPath: "/models/cloud_storage_icon.glb",
+    scale: 0.6,
+    rotation: [0, 0, 0],
+    position: [0, -1, 0],
+  },
+  {
     name: "CI/CD",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
