@@ -264,13 +264,13 @@ const AppShowcase = () => {
                   ref={appleImageRef}
                   src="/images/apple_white.png"
                   alt="iPhone 15"
-                  style={{transform: 'scale(0.667)'}}
+                  style={{transform: 'scale(0.5)'}}
                 />
               </div>
               <div className="flex flex-col gap-3">
                 <a href="https://iphonereplica.seancurrlin.com/" onClick={handleAppleClick} style={{ cursor: isTransitioning ? 'default' : 'pointer' }}>
                   <h2 className="flex items-center gap-2">
-                    Alternate Portfolio: ???
+                    Secret Portfolio: ???
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
                   </h2>
                 </a>
