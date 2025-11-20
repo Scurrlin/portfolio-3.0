@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -14,6 +14,10 @@ const AppShowcase = () => {
   const artRef = useRef(null);
   const appleRef = useRef(null);
   const stencilRef = useRef(null);
+  const transitionOverlayRef = useRef(null);
+  const appleImageRef = useRef(null);
+  
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   useGSAP(() => {
     // Animation for the main section
@@ -70,6 +74,42 @@ const AppShowcase = () => {
       );
     });
   }, []);
+
+  const handleAppleClick = (e) => {
+    e.preventDefault();
+    setIsTransitioning(true);
+
+    // Get the position of the apple image
+    const appleRect = appleImageRef.current.getBoundingClientRect();
+    const centerX = appleRect.left + appleRect.width / 2;
+    const centerY = appleRect.top + appleRect.height / 2;
+
+    // Calculate the max distance to cover the entire screen
+    const maxDistance = Math.sqrt(
+      Math.pow(Math.max(centerX, window.innerWidth - centerX), 2) +
+      Math.pow(Math.max(centerY, window.innerHeight - centerY), 2)
+    );
+
+    // Position the overlay at the center of the apple image
+    gsap.set(transitionOverlayRef.current, {
+      left: centerX,
+      top: centerY,
+      xPercent: -50,
+      yPercent: -50,
+    });
+
+    // Animate the expansion
+    gsap.to(transitionOverlayRef.current, {
+      width: maxDistance * 2,
+      height: maxDistance * 2,
+      duration: 1.5,
+      ease: "power2.inOut",
+      onComplete: () => {
+        // Navigate to the URL after animation completes
+        window.location.href = "https://iphonereplica.seancurrlin.com/";
+      },
+    });
+  };
 
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
@@ -167,7 +207,7 @@ const AppShowcase = () => {
           <div className="showcaselayout" style={{marginTop: '60px'}}>
           <div ref={artRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/p1.png" alt="Artofficial" />
+              <img src="/images/p1.png" alt="Artofficial" className="border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-lg" />
             </div>
             <div className="text-content">
               <a href="https://www.artofficial.fun/" target="_blank" rel="noopener noreferrer">
@@ -193,33 +233,6 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper">
-            <div className="project" ref={appleRef}>
-              <div className="image-wrapper bg-[#ffffff]">
-                <img
-                  src="/images/apple.png"
-                  alt="iPhone 15"
-                />
-              </div>
-              <div className="flex flex-col gap-3">
-                <a href="https://iphonereplica.seancurrlin.com/" target="_blank" rel="noopener noreferrer">
-                  <h2 className="flex items-center gap-2">
-                    iPhone 15 Replica: Modern UI/UX
-                    <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
-                  </h2>
-                </a>
-                
-                {/* Tech icons for iPhone 15 */}
-                <div className="flex items-center gap-4">
-                  <div className="tech-stack flex gap-3">
-                    <img src="/images/re.svg" alt="React" className="h-6 w-6" />
-                    <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
-                    <img src="/images/three.svg" alt="ThreeJS" className="h-6 w-6" />
-                    <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="project" ref={stencilRef}>
               <div className="image-wrapper" style={{background: 'linear-gradient(135deg, #e83f80, #f14660, #ec5d2d, #fa7454, #f9a144)'}}>
                 <img src="/images/npm.png" alt="Stencil" />
@@ -244,9 +257,53 @@ const AppShowcase = () => {
                 </div>
               </div>
             </div>
+
+            <div className="project" ref={appleRef}>
+              <div className="image-wrapper border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-lg" style={{backgroundImage: 'url(/images/Tahoe_default.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                <img
+                  ref={appleImageRef}
+                  src="/images/apple_white.png"
+                  alt="iPhone 15"
+                  style={{transform: 'scale(0.667)'}}
+                />
+              </div>
+              <div className="flex flex-col gap-3">
+                <a href="https://iphonereplica.seancurrlin.com/" onClick={handleAppleClick} style={{ cursor: isTransitioning ? 'default' : 'pointer' }}>
+                  <h2 className="flex items-center gap-2">
+                    Alternate Portfolio: ???
+                    <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
+                  </h2>
+                </a>
+                
+                {/* Tech icons for iPhone 15 */}
+                <div className="flex items-center gap-4">
+                  <div className="tech-stack flex gap-3">
+                    <img src="/images/re.svg" alt="React" className="h-6 w-6" />
+                    <img src="/images/tail.svg" alt="TailwindCSS" className="h-6 w-6" />
+                    <img src="/images/three.svg" alt="ThreeJS" className="h-6 w-6" />
+                    <img src="/images/gsap.svg" alt="GSAP" className="h-6 w-6" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
+      {/* Transition Overlay */}
+      <div
+        ref={transitionOverlayRef}
+        className="transition-overlay"
+        style={{
+          position: 'fixed',
+          width: 0,
+          height: 0,
+          borderRadius: '50%',
+          backgroundColor: '#ffffff',
+          zIndex: 9999,
+          pointerEvents: isTransitioning ? 'all' : 'none',
+        }}
+      />
     </div>
   );
 };
