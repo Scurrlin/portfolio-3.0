@@ -259,12 +259,15 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={appleRef}>
-              <div className="image-wrapper">
-                <img
-                  ref={appleImageRef}
-                  src="/images/white_apple_logo2_compressed.jpg"
-                  alt="iPhone 15"
-                />
+              <div 
+                ref={appleImageRef}
+                className="image-wrapper" 
+                style={{
+                  backgroundImage: 'url(/images/white_apple_logo2_compressed.jpg)', 
+                  backgroundSize: 'cover', 
+                  backgroundPosition: 'center'
+                }}
+              >
               </div>
               <div className="flex flex-col gap-3">
                 <a href="https://iphonereplica.seancurrlin.com/" onClick={handleAppleClick} style={{ cursor: isTransitioning ? 'default' : 'pointer' }}>
@@ -274,7 +277,7 @@ const AppShowcase = () => {
                   </h2>
                 </a>
                 
-                {/* Tech icons for iPhone 15 */}
+                {/* Tech icons for Secret Portfolio */}
                 <div className="flex items-center gap-4">
                   <div className="tech-stack flex gap-3">
                     <img src="/images/re.svg" alt="React" className="h-6 w-6" />
