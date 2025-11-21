@@ -259,12 +259,11 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={appleRef}>
-              <div className="image-wrapper border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-lg" style={{backgroundImage: 'url(/images/Tahoe_default.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <div className="image-wrapper">
                 <img
                   ref={appleImageRef}
-                  src="/images/apple_white.png"
+                  src="/images/white_apple_logo2_compressed.jpg"
                   alt="iPhone 15"
-                  style={{transform: 'scale(0.5)'}}
                 />
               </div>
               <div className="flex flex-col gap-3">

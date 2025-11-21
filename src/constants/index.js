@@ -121,7 +121,7 @@ const socialImgs = [
     name: "Spotify",
     imgPath: "/images/spot.svg",
     url: "https://open.spotify.com/artist/1yes1OaMmV9w58iMeggawH"
-  },
+  }
 ];
 
 export {
