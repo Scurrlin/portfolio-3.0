@@ -259,15 +259,13 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={appleRef}>
-              <div 
-                ref={appleImageRef}
-                className="image-wrapper" 
-                style={{
-                  backgroundImage: 'url(/images/white_apple_logo2_compressed.jpg)', 
-                  backgroundSize: 'cover', 
-                  backgroundPosition: 'center'
-                }}
-              >
+              <div className="image-wrapper">
+                <img
+                  ref={appleImageRef}
+                  src="/images/white_apple_logo2_compressed.jpg"
+                  alt="Secret"
+                  style={{objectFit: 'cover', padding: 0}}
+                />
               </div>
               <div className="flex flex-col gap-3">
                 <a href="https://iphonereplica.seancurrlin.com/" onClick={handleAppleClick} style={{ cursor: isTransitioning ? 'default' : 'pointer' }}>
