@@ -262,9 +262,9 @@ const AppShowcase = () => {
               <div className="image-wrapper">
                 <img
                   ref={appleImageRef}
-                  src="/images/white_apple_logo.jpg"
+                  src="/images/white_apple_logo.png"
                   alt="Secret"
-                  style={{objectFit: 'cover', padding: 0, imageRendering: 'auto', WebkitBackfaceVisibility: 'hidden'}}
+                  style={{objectFit: 'cover', padding: 0}}
                 />
               </div>
               <div className="flex flex-col gap-3">
