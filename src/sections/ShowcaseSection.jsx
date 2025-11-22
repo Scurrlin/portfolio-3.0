@@ -192,7 +192,7 @@ const AppShowcase = () => {
                 <div className="flex items-center gap-4">
                   <div className="shield-counter">
                     <img
-                      src="https://img.shields.io/badge/total_views-4.1k-blue"
+                      src="https://img.shields.io/badge/total_views-4.2k-blue"
                       alt="Tableau Views"
                       className="h-5 w-auto"
                     />
@@ -268,7 +268,7 @@ const AppShowcase = () => {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <a href="https://iphonereplica.seancurrlin.com/" onClick={handleAppleClick} style={{ cursor: isTransitioning ? 'default' : 'pointer' }}>
+                <a href="https://secret.seancurrlin.com/" onClick={handleAppleClick} style={{ cursor: isTransitioning ? 'default' : 'pointer' }}>
                   <h2 className="flex items-center gap-2">
                     Secret Portfolio: ???
                     <img src="/images/arrow.svg" alt="arrow" className="h-4 w-4" />
