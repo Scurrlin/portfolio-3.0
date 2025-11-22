@@ -262,7 +262,7 @@ const AppShowcase = () => {
               <div className="image-wrapper">
                 <img
                   ref={appleImageRef}
-                  src="/images/white_apple_logo.png"
+                  src="/images/alt_apple_logo2.png"
                   alt="Secret"
                   style={{objectFit: 'cover', padding: 0}}
                 />
