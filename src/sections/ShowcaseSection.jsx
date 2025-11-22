@@ -259,12 +259,18 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={appleRef}>
-              <div className="image-wrapper">
+              <div ref={appleImageRef} className="image-wrapper" style={{background: 'radial-gradient(circle at center, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 60%), linear-gradient(135deg, #AFF8FF 0%, #BCF8EE 25%, #F6DFFF 60%, #FFE0ED 100%)'}}>
+                {/* Mobile logo (< 640px) */}
                 <img
-                  ref={appleImageRef}
-                  src="/images/alt_apple_logo2.png"
+                  src="/images/white_logo_noBG2.png"
                   alt="Secret"
-                  style={{objectFit: 'cover', padding: 0}}
+                  className="sm:hidden"
+                />
+                {/* Desktop logo */}
+                <img
+                  src="/images/white_logo_noBG1.png"
+                  alt="Secret"
+                  className="hidden sm:block"
                 />
               </div>
               <div className="flex flex-col gap-3">
