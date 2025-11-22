@@ -106,7 +106,7 @@ const AppShowcase = () => {
       ease: "power2.inOut",
       onComplete: () => {
         // Navigate to the URL after animation completes
-        window.location.href = "https://iphonereplica.seancurrlin.com/";
+        window.location.href = "https://secret.seancurrlin.com/";
       },
     });
   };
